@@ -1,4 +1,3 @@
-# Live - https://sedulla-me.netlify.app/
 
 # Getting Started with Create React App
 
