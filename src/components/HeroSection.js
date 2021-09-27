@@ -168,7 +168,7 @@ export const HeroSection = () => {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a frontend web developer for 5 months. Lorem,
+              I am working as a frontend web developer. Lorem,
               ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
               quos?
             </PText>

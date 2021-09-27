@@ -67,7 +67,6 @@ const Footer = () => {
           <PText>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
             laboriosam earum, amet nostrum voluptas vitae nemo suscipit aliquid
-            quae blanditiis dolor, repellat distinctio quibusdam harum sapiente
             eligendi nisi necessitatibus atque.
           </PText>
         </div>

@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const Typography = createGlobalStyle`
   @font-face {
-    font-family: 'IBMPlexoMono Regular';
+    font-family: 'IBMPlexMono Regular';
     src: url(${IBMPlexMonoRegular});
     font-style: normal;
   }

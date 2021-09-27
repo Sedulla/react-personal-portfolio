@@ -116,7 +116,7 @@ export default function About() {
             <Button btnText="Download CV" btnLink="#" />
           </div>
           <div className="right">
-            <img src="" alt="me" />
+            <img src="" alt="me-img" />
           </div>
         </div>
 
