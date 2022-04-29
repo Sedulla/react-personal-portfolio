@@ -1,7 +1,6 @@
-import React from 'react';
 import { MdCode } from 'react-icons/md';
 import styled from 'styled-components';
-import PText from './PText';
+import { PText } from '../helpers/PText';
 
 const ItemStyles = styled.div`
   text-align: center;
@@ -21,7 +20,7 @@ const ItemStyles = styled.div`
   }
 `;
 
-const ServicesSectionItem = ({
+export const ServicesSectionItem = ({
   icon = <MdCode />,
   title = 'web dev',
   desc = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, id',
@@ -34,5 +33,3 @@ const ServicesSectionItem = ({
     </ItemStyles>
   );
 };
-
-export default ServicesSectionItem;

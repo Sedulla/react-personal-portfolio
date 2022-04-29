@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
-import PText from './PText';
+import { PText } from './PText';
 
 const AboutItemStyles = styled.div`
   display: flex;
@@ -40,7 +39,7 @@ const AboutItemStyles = styled.div`
   }
 `;
 
-const AboutInfoItem = ({ title = 'Title', items = ['HTML', 'CSS'] }) => {
+export const AboutInfoItem = ({ title = 'Title', items = ['HTML', 'CSS'] }) => {
   return (
     <AboutItemStyles>
       <h1 className="title">{title}</h1>
@@ -54,5 +53,3 @@ const AboutInfoItem = ({ title = 'Title', items = ['HTML', 'CSS'] }) => {
     </AboutItemStyles>
   );
 };
-
-export default AboutInfoItem;

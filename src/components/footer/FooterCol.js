@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -17,7 +16,7 @@ const ColStyle = styled.div`
   }
 `;
 
-const FooterCol = ({
+export const FooterCol = ({
   heading = 'Col Heading',
   links = [
     {
@@ -51,5 +50,3 @@ const FooterCol = ({
     </ColStyle>
   );
 };
-
-export default FooterCol;

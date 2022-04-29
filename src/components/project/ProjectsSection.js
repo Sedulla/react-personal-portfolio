@@ -1,10 +1,9 @@
-import React from 'react';
-import SectionTitle from './SectionTitle';
+import { SectionTitle } from '../helpers/SectionTitle';
+import { projects } from '../../assets/data/project';
+import { ProjectItem } from './ProjectItem';
+import styled from 'styled-components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';
-import projects from '../assets/data/project';
-import ProjectItem from './ProjectItem';
-import styled from 'styled-components';
 import 'swiper/swiper-bundle.min.css';
 
 // install Swiper modules
@@ -60,7 +59,7 @@ const ProjectsSectionStyle = styled.div`
   }
 `;
 
-const ProjectsSection = () => {
+export const ProjectsSection = () => {
   return (
     <ProjectsSectionStyle>
       <div className="container">
@@ -103,5 +102,3 @@ const ProjectsSection = () => {
     </ProjectsSectionStyle>
   );
 };
-
-export default ProjectsSection;

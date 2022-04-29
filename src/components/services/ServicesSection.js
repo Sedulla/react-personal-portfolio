@@ -1,6 +1,5 @@
-import React from 'react';
-import SectionTitle from './SectionTitle';
-import ServicesSectionItem from './ServicesSectionItem';
+import { SectionTitle } from './SectionTitle';
+import { ServicesSectionItem } from './ServicesSectionItem';
 import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
 import styled from 'styled-components';
 
@@ -24,7 +23,7 @@ const ServicesItemStyles = styled.div`
   } ;
 `;
 
-const ServicesSection = () => {
+export const ServicesSection = () => {
   return (
     <ServicesItemStyles>
       <div className="container">
@@ -53,5 +52,3 @@ const ServicesSection = () => {
     </ServicesItemStyles>
   );
 };
-
-export default ServicesSection;

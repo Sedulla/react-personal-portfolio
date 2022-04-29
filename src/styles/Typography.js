@@ -3,7 +3,7 @@ import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
 import { createGlobalStyle } from 'styled-components';
 
-const Typography = createGlobalStyle`
+export const Typography = createGlobalStyle`
   @font-face {
     font-family: 'IBMPlexMono Regular';
     src: url(${IBMPlexMonoRegular});
@@ -31,5 +31,3 @@ const Typography = createGlobalStyle`
     font-family: 'Montserrat SemiBold'
   }
 `;
-
-export default Typography;

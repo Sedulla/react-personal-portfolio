@@ -1,10 +1,9 @@
-import React from 'react';
-import ContactSection from '../components/ContactSection';
+import {ContactSection} from '../components/contact/ContactSection';
 
-export default function Contact() {
+export const Contact = () => {
   return (
     <>
       <ContactSection />
     </>
   );
-}
+};

@@ -1,15 +1,15 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import React from 'react';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import NavMenu from './components/NavMenu';
-import Projects from './pages/Projects';
-import Footer from './components/Footer';
-import SmoothScroll from './components/SmoothScroll';
+import { About } from './pages/About';
+import { Contact } from './pages/Contact';
+import { Home } from './pages/Home';
+import { Projects } from './pages/Projects';
+import { NavMenu } from './components/hero/NavMenu';
+import { Footer } from './components/footer/Footer';
 
-export default function App() {
+import SmoothScroll from './components/helpers/SmoothScroll';
+
+export const App = () => {
   return (
     <>
       <Router>
@@ -34,4 +34,4 @@ export default function App() {
       </Router>
     </>
   );
-}
+};

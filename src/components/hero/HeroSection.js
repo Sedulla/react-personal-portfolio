@@ -1,8 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
+import { Button } from '../helpers/Button';
+import { PText } from '../helpers/PText';
 import HeroImg from '../assets/images/hero.jpg';
-import Button from './Button';
-import { PText } from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 
@@ -168,9 +167,8 @@ export const HeroSection = () => {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a frontend web developer. Lorem,
-              ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-              quos?
+              I am working as a frontend web developer. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Explicabo, quos?
             </PText>
             <Button
               btnLink="/projects"
@@ -234,4 +232,3 @@ export const HeroSection = () => {
   );
 };
 
-export default HeroSection;

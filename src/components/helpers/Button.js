@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -21,11 +20,11 @@ const ButtonStyle = styled.div`
   }
 `;
 
-export default function Button({
+export const Button = ({
   btnLink = 'test',
   btnText = 'test',
   outline = false,
-}) {
+}) => {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
       <Link className="button" to={btnLink}>
@@ -33,4 +32,4 @@ export default function Button({
       </Link>
     </ButtonStyle>
   );
-}
+};

@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
@@ -27,14 +26,14 @@ const SectionTitleStyle = styled.div`
   }
 `;
 
-export default function SectionTitle({
+export const SectionTitle = ({
   subheading = 'Need Subheading',
   heading = 'need heading',
-}) {
+}) => {
   return (
     <SectionTitleStyle className="section-title">
       <p>{subheading}</p>
       <h2>{heading}</h2>
     </SectionTitleStyle>
   );
-}
+};

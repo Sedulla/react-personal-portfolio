@@ -1,8 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
-import Button from '../components/Button';
-import PText from '../components/PText';
+import Button from '../components/helpers/Button';
+import PText from '../components/helpers/PText';
 // import AboutImg from '../assets/images/about-page-img.png'
 import ContactBanner from '../components/ContactBanner';
 
@@ -83,7 +82,7 @@ const AboutPageStyles = styled.div`
   }
 `;
 
-export default function About() {
+export const About = () => {
   return (
     <AboutPageStyles>
       <div className="container">
@@ -163,4 +162,4 @@ export default function About() {
       <ContactBanner />
     </AboutPageStyles>
   );
-}
+};

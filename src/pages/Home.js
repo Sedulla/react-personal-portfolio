@@ -1,12 +1,11 @@
-import React from 'react';
-import HeroSection from '../components/HeroSection';
+import HeroSection from '../components/hero/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ServicesSection from '../components/ServicesSection';
-import ProjectsSection from '../components/ProjectsSection';
-import TestimonialsSection from '../components/TestimonialsSection';
+import ProjectsSection from '../components/project/ProjectsSection';
+import TestimonialsSection from '../components/testimonials/TestimonialsSection';
 import ContactBanner from '../components/ContactBanner';
 
-export default function Home() {
+export const Home = () => {
   return (
     <div>
       <HeroSection />
@@ -17,4 +16,4 @@ export default function Home() {
       <ContactBanner />
     </div>
   );
-}
+};

@@ -1,7 +1,7 @@
+import  { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { MdClose, MdMenu } from 'react-icons/md';
-import React, { useState } from 'react';
 
 const NavStyles = styled.nav`
   position: fixed;
@@ -90,7 +90,7 @@ const NavStyles = styled.nav`
   }
 `;
 
-export default function NavMenu() {
+export const NavMenu = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
@@ -162,4 +162,4 @@ export default function NavMenu() {
       </ul>
     </NavStyles>
   );
-}
+};

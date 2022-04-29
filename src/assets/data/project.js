@@ -5,7 +5,7 @@
 import UTrackerImg from '../images/utracker.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
-const projects = [
+export const projects = [
   {
     id: uuidv4(),
     name: 'U Tracker',
@@ -37,5 +37,3 @@ const projects = [
     img: UTrackerImg,
   },
 ];
-
-export default projects;

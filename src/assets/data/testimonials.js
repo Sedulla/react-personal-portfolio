@@ -1,4 +1,4 @@
-const testimonials = [
+export const testimonials = [
   {
     id: 1,
     name: 'Ahmed',
@@ -21,4 +21,3 @@ const testimonials = [
     desc: 'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
   },
 ];
-export default testimonials;

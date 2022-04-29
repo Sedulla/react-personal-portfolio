@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 const PStyle = styled.div`
@@ -18,5 +17,3 @@ export const PText = ({ children }) => {
     </PStyle>
   );
 };
-
-export default PText;

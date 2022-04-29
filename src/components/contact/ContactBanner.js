@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
-import Button from './Button';
-import PText from './PText';
+import {Button} from './Button';
+import {PText} from './PText';
 
 const ContactBannerStyles = styled.div`
   padding: 5rem 0;
@@ -24,7 +23,7 @@ const ContactBannerStyles = styled.div`
   }
 `;
 
-const ContactBanner = () => {
+export const ContactBanner = () => {
   return (
     <ContactBannerStyles>
       <div className="container">
@@ -38,4 +37,3 @@ const ContactBanner = () => {
   );
 };
 
-export default ContactBanner;

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import UTrackerImg from '../assets/images/utracker.jpg';
@@ -40,7 +39,7 @@ const ProjectItemStyle = styled.div`
   }
 `;
 
-const ProjectItem = ({
+export const ProjectItem = ({
   img = UTrackerImg,
   title = 'Project Name',
   desc = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident itaque rerum iste explicabo! Inventore, est.',
@@ -59,5 +58,3 @@ const ProjectItem = ({
     </ProjectItemStyle>
   );
 };
-
-export default ProjectItem;

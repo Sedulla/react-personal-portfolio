@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styled from 'styled-components';
 
 const FormStyle = styled.div`
@@ -43,7 +43,7 @@ const FormStyle = styled.div`
   }
 `;
 
-const ContactForm = () => {
+export const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -93,4 +93,3 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;

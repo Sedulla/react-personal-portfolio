@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import Scroll from 'react-smooth-scrollbar';
 
-const SmoothScroll = ({ children }) => {
+export const SmoothScroll = ({ children }) => {
   const ref = useRef(null);
   const { pathname } = useLocation();
 
@@ -18,4 +18,3 @@ const SmoothScroll = ({ children }) => {
   );
 };
 
-export default SmoothScroll;

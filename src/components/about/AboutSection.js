@@ -1,8 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
-import Button from './Button';
-import PText from './PText';
-import SectionTitle from './SectionTitle';
+import { Button } from './Button';
+import { PText } from './PText';
+import { SectionTitle } from './SectionTitle';
 // import AboutImg from '../assets/images/about-sec-img.png'
 
 const AboutSectionStyles = styled.div`
@@ -81,7 +80,7 @@ const AboutSectionStyles = styled.div`
   }
 `;
 
-export default function AboutSection() {
+export const AboutSection = () => {
   return (
     <AboutSectionStyles>
       <div className="container">
@@ -107,4 +106,4 @@ export default function AboutSection() {
       </div>
     </AboutSectionStyles>
   );
-}
+};

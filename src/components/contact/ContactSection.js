@@ -1,9 +1,8 @@
-import React from 'react';
 import { MdEmail, MdLocalPhone } from 'react-icons/md';
 import styled from 'styled-components';
-import ContactForm from './ContactForm';
-import ContactInfoItem from './ContactInfoItem';
-import SectionTitle from './SectionTitle';
+import { ContactForm } from './ContactForm';
+import { ContactInfoItem } from './ContactInfoItem';
+import { SectionTitle } from '../helpers/SectionTitle';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -57,7 +56,7 @@ const ContactSectionStyle = styled.div`
   }
 `;
 
-const ContactSection = () => {
+export const ContactSection = () => {
   return (
     <ContactSectionStyle>
       <div className="container">
@@ -76,5 +75,3 @@ const ContactSection = () => {
     </ContactSectionStyle>
   );
 };
-
-export default ContactSection;

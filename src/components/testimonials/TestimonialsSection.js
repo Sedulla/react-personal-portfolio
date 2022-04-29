@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import { MdArrowBack, MdArrowForward } from 'react-icons/md';
-import SectionTitle from './SectionTitle';
-import PText from './PText';
+import { SectionTitle } from '../helpers/SectionTitle';
+import { PText } from '../helpers/PText';
 import styled from 'styled-components';
-import testimonials from '../assets/data/testimonials';
+import { testimonials } from '../../assets/data/testimonials';
 
 const TestimonialSectionStyles = styled.div`
   overflow-x: hidden;
@@ -88,7 +88,7 @@ const TestimonialSectionStyles = styled.div`
   }
 `;
 
-const TestimonialsSection = () => {
+export const TestimonialsSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeSlide = testimonials[activeIndex];
 
@@ -156,4 +156,3 @@ const TestimonialsSection = () => {
   );
 };
 
-export default TestimonialsSection;
