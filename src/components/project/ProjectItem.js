@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import UTrackerImg from '../assets/images/utracker.jpg';
+import UTrackerImg from '../../assets/images/utracker.jpg';
 
 const ProjectItemStyle = styled.div`
   .projectItem__img {

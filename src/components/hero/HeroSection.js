@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { Button } from '../helpers/Button';
 import { PText } from '../helpers/PText';
-import HeroImg from '../assets/images/hero.jpg';
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import HeroImg from '../../assets/images/hero.jpg';
+import SocialMediaArrow from '../../assets/images/social-media-arrow.svg';
+import ScrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
 
 const HeroStyles = styled.div`
   .hero {

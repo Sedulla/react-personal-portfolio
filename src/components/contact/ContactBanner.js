@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import {Button} from './Button';
-import {PText} from './PText';
+import {Button} from '../helpers/Button';
+import {PText} from '../helpers/PText';
 
 const ContactBannerStyles = styled.div`
   padding: 5rem 0;

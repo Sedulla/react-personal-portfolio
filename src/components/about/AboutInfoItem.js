@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { PText } from './PText';
+import { PText } from '../helpers/PText';
 
 const AboutItemStyles = styled.div`
   display: flex;

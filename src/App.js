@@ -7,7 +7,7 @@ import { Projects } from './pages/Projects';
 import { NavMenu } from './components/hero/NavMenu';
 import { Footer } from './components/footer/Footer';
 
-import SmoothScroll from './components/helpers/SmoothScroll';
+import { SmoothScroll } from './components/helpers/SmoothScroll';
 
 export const App = () => {
   return (

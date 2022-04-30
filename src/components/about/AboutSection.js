@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { Button } from './Button';
-import { PText } from './PText';
-import { SectionTitle } from './SectionTitle';
+import { Button } from '../helpers/Button';
+import { PText } from '../helpers/PText';
+import { SectionTitle } from '../helpers/SectionTitle';
 // import AboutImg from '../assets/images/about-sec-img.png'
 
 const AboutSectionStyles = styled.div`

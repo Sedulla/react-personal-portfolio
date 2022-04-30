@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import AboutInfoItem from '../components/AboutInfoItem';
-import Button from '../components/helpers/Button';
-import PText from '../components/helpers/PText';
+import {AboutInfoItem} from '../components/about/AboutInfoItem';
+import {Button} from '../components/helpers/Button';
+import {PText} from '../components/helpers/PText';
 // import AboutImg from '../assets/images/about-page-img.png'
-import ContactBanner from '../components/ContactBanner';
+import {ContactBanner} from '../components/contact/ContactBanner';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;

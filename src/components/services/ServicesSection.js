@@ -1,4 +1,4 @@
-import { SectionTitle } from './SectionTitle';
+import { SectionTitle } from '../helpers/SectionTitle';
 import { ServicesSectionItem } from './ServicesSectionItem';
 import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
 import styled from 'styled-components';

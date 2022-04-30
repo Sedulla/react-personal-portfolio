@@ -1,9 +1,9 @@
-import HeroSection from '../components/hero/HeroSection';
-import AboutSection from '../components/AboutSection';
-import ServicesSection from '../components/ServicesSection';
-import ProjectsSection from '../components/project/ProjectsSection';
-import TestimonialsSection from '../components/testimonials/TestimonialsSection';
-import ContactBanner from '../components/ContactBanner';
+import { HeroSection } from '../components/hero/HeroSection';
+import { AboutSection } from '../components/about/AboutSection';
+import { ServicesSection } from '../components/services/ServicesSection';
+import { ProjectsSection } from '../components/project/ProjectsSection';
+import { TestimonialsSection } from '../components/testimonials/TestimonialsSection';
+import { ContactBanner } from '../components/contact/ContactBanner';
 
 export const Home = () => {
   return (
