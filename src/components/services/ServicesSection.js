@@ -1,6 +1,6 @@
 import { SectionTitle } from '../helpers/SectionTitle';
 import { ServicesSectionItem } from './ServicesSectionItem';
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
+import { MdDesktopMac, MdCode, MdSearch } from 'react-icons/md';
 import styled from 'styled-components';
 
 const ServicesItemStyles = styled.div`
@@ -28,24 +28,24 @@ export const ServicesSection = () => {
     <ServicesItemStyles>
       <div className="container">
         <SectionTitle
-          heading="Services"
-          subheading="What I will do for you"
+          heading="Sections"
+          subheading="What I know"
         ></SectionTitle>
         <div className="services__allItems">
           <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="web design"
-            desc="I do ui/ux design for the website that helps to get nice look."
+            desc="Some text about web design"
           />
           <ServicesSectionItem
             icon={<MdCode />}
             title="web dev"
-            desc="I also develop websites. High performance website with blazing fast speed."
+            desc="Some text about web development"
           />
           <ServicesSectionItem
-            icon={<MdPhonelinkSetup />}
-            title="app Dev"
-            desc="I develop mobile application. Mobile app with eye catching ui."
+            icon={<MdSearch />}
+            title="SEO"
+            desc="Some text about the SEO"
           />
         </div>
       </div>

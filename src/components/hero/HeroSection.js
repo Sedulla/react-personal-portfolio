@@ -159,17 +159,14 @@ export const HeroSection = () => {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>As-salamu alaikum, This is</span>
-            <span className="hero__name">Sedulla Jafarli</span>
+            <span>Hi, I'm</span>
+            <span className="hero__name">Sedulla</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am working as a frontend web developer. Lorem, ipsum dolor sit
-              amet consectetur adipisicing elit. Explicabo, quos?
-            </PText>
+            <PText>I'm a Frontend (React) Developer based in Baku, AZ.</PText>
             <Button
               btnLink="/projects"
               btnText="see my works"
@@ -185,16 +182,7 @@ export const HeroSection = () => {
               <ul>
                 <li>
                   <a
-                    href="https://github.com/Sedulla"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    FB
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/Sedulla"
+                    href="#!"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,7 +191,7 @@ export const HeroSection = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/Sedulla"
+                    href="#!"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -212,7 +200,7 @@ export const HeroSection = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/Sedulla"
+                    href="https://www.linkedin.com/in/sedulla-jafarli/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -231,4 +219,3 @@ export const HeroSection = () => {
     </HeroStyles>
   );
 };
-

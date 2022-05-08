@@ -1,5 +1,5 @@
 import { SectionTitle } from '../helpers/SectionTitle';
-import { projects } from '../../assets/data/project';
+import { projects } from '../../utils/projects';
 import { ProjectItem } from './ProjectItem';
 import styled from 'styled-components';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -63,7 +63,7 @@ export const ProjectsSection = () => {
   return (
     <ProjectsSectionStyle>
       <div className="container">
-        <SectionTitle subheading="some of my recent works" heading="Projects" />
+        <SectionTitle subheading="some of works" heading="Projects" />
         <div className="projects__allItems">
           <Swiper
             spaceBetween={30}

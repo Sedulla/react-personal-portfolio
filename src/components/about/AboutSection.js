@@ -86,22 +86,17 @@ export const AboutSection = () => {
       <div className="container">
         <div className="aboutSection__left">
           <SectionTitle
-            subheading="Let me introduce myself"
+            subheading="Let me introduce"
             heading="About Me"
           />
-          <PText>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ex
-            rem sequi deleniti? Ex, quasi nostrum reprehenderit ipsa quos animi
-            cumque enim optio veritatis corrupti ab, esse modi laudantium
-            maxime!
-          </PText>
+          <PText>Frontend (React) Developer.</PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
             <Button btnText="Read More" btnLink="/about" outline />
           </div>
         </div>
         <div className="aboutSection__right">
-          <img className="aboutImg" src="" alt="about-img" />
+          {/* <img className="aboutImg" src="" alt="about-img" /> */}
         </div>
       </div>
     </AboutSectionStyles>

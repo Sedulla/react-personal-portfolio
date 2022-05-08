@@ -14,7 +14,7 @@ const AboutItemStyles = styled.div`
 
   .items {
     display: flex;
-    gap: 1.5rem;
+    gap: 3rem;
     position: absolute;
     left: 18rem;
   }
@@ -39,7 +39,7 @@ const AboutItemStyles = styled.div`
   }
 `;
 
-export const AboutInfoItem = ({ title = 'Title', items = ['HTML', 'CSS'] }) => {
+export const AboutInfoItem = ({ title, items }) => {
   return (
     <AboutItemStyles>
       <h1 className="title">{title}</h1>

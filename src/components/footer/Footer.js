@@ -63,11 +63,7 @@ export const Footer = () => {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Sedulla Jafarli</h1>
-          <PText>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            laboriosam earum, amet nostrum voluptas vitae nemo suscipit aliquid
-            eligendi nisi necessitatibus atque.
-          </PText>
+          <PText>This is my portfolio website.</PText>
         </div>
         <div className="footer__col2">
           <FooterCol
@@ -101,16 +97,16 @@ export const Footer = () => {
             heading="Contact Info"
             links={[
               {
-                title: '+7777777',
-                path: 'tel/:+8877777',
+                title: '+994 55 6163677',
+                path: 'tel:+994556163677',
               },
               {
-                title: 'web@gmail.com',
-                path: 'mailto:web@gmail.com',
+                title: 'sedullaa2001@gmail.com',
+                path: 'mailto:sedullaa2001@gmail.com',
               },
               {
-                title: 'Azerbaijan',
-                path: 'https:google.com/maps',
+                title: 'Baku, Azerbaijan',
+                path: '#!',
               },
             ]}
           />
@@ -120,16 +116,16 @@ export const Footer = () => {
             heading="Social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'htpps://facebook.com',
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/sedulla-jafarli/',
               },
               {
                 title: 'Twitter',
-                path: 'htpps://facebook.com',
+                path: '#!',
               },
               {
                 title: 'Instagram',
-                path: 'htpps://facebook.com',
+                path: '#!',
               },
             ]}
           />
@@ -144,4 +140,3 @@ export const Footer = () => {
     </FooterStyle>
   );
 };
-

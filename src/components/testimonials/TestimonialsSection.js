@@ -4,7 +4,7 @@ import { MdArrowBack, MdArrowForward } from 'react-icons/md';
 import { SectionTitle } from '../helpers/SectionTitle';
 import { PText } from '../helpers/PText';
 import styled from 'styled-components';
-import { testimonials } from '../../assets/data/testimonials';
+import { testimonials } from '../../utils/testimonials';
 
 const TestimonialSectionStyles = styled.div`
   overflow-x: hidden;
@@ -112,7 +112,7 @@ export const TestimonialsSection = () => {
     <TestimonialSectionStyles>
       <div className="container">
         <SectionTitle
-          subheading="see what our clients say about us"
+          subheading="see what they say about me"
           heading="Testimonials"
         />
         <div className="testimonial__wrapper">

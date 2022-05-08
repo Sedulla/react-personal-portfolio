@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { SectionTitle } from '../components/helpers/SectionTitle';
 import { MdSearch } from 'react-icons/md';
 import { ProjectItem } from '../components/project/ProjectItem';
-import { projects } from '../assets/data/project';
+import { projects } from '../utils/projects';
 
 const ProjectsStyle = styled.div`
   padding: 10rem 0;
@@ -78,7 +78,7 @@ export const Projects = () => {
         <div className="container">
           <SectionTitle
             heading="Projects"
-            subheading="some of my recent works"
+            subheading="some of works"
           ></SectionTitle>
           <div className="projects__searchBox">
             <form action="">
@@ -98,6 +98,7 @@ export const Projects = () => {
                 title={item.name}
                 desc={item.desc}
                 img={item.img}
+                path={item.path}
               />
             ))}
           </div>

@@ -40,19 +40,20 @@ const ProjectItemStyle = styled.div`
 `;
 
 export const ProjectItem = ({
-  img = UTrackerImg,
-  title = 'Project Name',
-  desc = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident itaque rerum iste explicabo! Inventore, est.',
+  img = '',
+  title = 'Project Name Here',
+  desc = 'Project Description here',
+  path = '/',
 }) => {
   return (
     <ProjectItemStyle>
-      <Link to="/projects" className="projectItem__img">
+      {/* <a href={path} className="projectItem__img">
         <img src={img} alt="project" />
-      </Link>
+      </a> */}
       <div className="projectItem__info">
-        <Link to="#">
+        <a href={path} target="_blank" rel="noopener noreferrer">
           <h3 className="projectItem__title">{title}</h3>
-        </Link>
+        </a>
         <p className="projectItem__desc">{desc}</p>
       </div>
     </ProjectItemStyle>
