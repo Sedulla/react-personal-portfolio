@@ -17,12 +17,12 @@ const ProjectsStyle = styled.div`
 
   .projects__searchBox {
     position: relative;
-    widht: 300px;
+    width: 300px;
     margin-top: 5rem;
   }
 
   .projects__searchBox input {
-    widht: 100%;
+    width: 100%;
     font-size: 2rem;
     padding: 0.8rem;
     color: var(--black);
@@ -45,7 +45,7 @@ const ProjectsStyle = styled.div`
     .projects__searchBox,
     .projects__searchBox form,
     .projects__searchBox input {
-      widht: 100%;
+      width: 90vw;
     }
   }
 `;

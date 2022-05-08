@@ -27,9 +27,9 @@ export const Button = ({
 }) => {
   return (
     <ButtonStyle outline={outline} className="button-wrapper">
-      <Link className="button" to={btnLink}>
+      <a className="button" href={btnLink} target="_blank" rel="noreferrer">
         {btnText}
-      </Link>
+      </a>
     </ButtonStyle>
   );
 };
